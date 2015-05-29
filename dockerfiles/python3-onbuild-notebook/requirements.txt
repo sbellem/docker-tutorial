@@ -1,0 +1,5 @@
+ipython
+jinja2
+jsonschema
+pyzmq
+tornado
