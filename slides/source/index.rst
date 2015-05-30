@@ -774,4 +774,5 @@ remove untagged images:
 References
 ==========
 
+* docs: https://docs.docker.com/
 * layers: https://docs.docker.com/terms/layer/
