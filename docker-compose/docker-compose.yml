@@ -1,0 +1,10 @@
+notebook:
+  build: notebook-image/
+  volumes:
+   - notebooks:/notebooks 
+  ports:
+   - "8888"
+  links:
+   - db
+db:
+  image: postgres
