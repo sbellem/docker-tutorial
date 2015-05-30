@@ -731,26 +731,15 @@ Delete all stopped containers
 Dockerizing Postgres
 ====================
 
+.. rst-class:: build
+
+* .. code-block:: bash
+
+   $ docker run --name pg -d -P postgres
+
 Linking Postgres to our Notebook
 ================================
  
-.. Bcolz
-.. =====
-.. 
-.. MongoDB
-.. =======
-.. 
-.. PyTables
-.. ========
-.. 
-.. Spark
-.. =====
-.. 
-.. CSV Data Container
-.. ==================
-.. 
-.. Blaze
-.. =====
 
 Clean Up Tips
 =============
