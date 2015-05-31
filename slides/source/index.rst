@@ -765,3 +765,4 @@ References
 
 * docs: https://docs.docker.com/
 * layers: https://docs.docker.com/terms/layer/
+* OS X: https://coderwall.com/p/w-zk9w/increase-boot2docker-space-allocation-in-osx
