@@ -610,6 +610,17 @@ We can build an image from a ``Dockerfile``
 Let's write one, for the notebook, FROM ``ubuntu``
 
 
+``.dockerignore``
+=================
+
+`Use a .dockerignore file <https://docs.docker.com/articles/dockerfile_best-practices/#use-a-dockerignore-file>`_
+
+
+Best Practices For Writing Dockerfiles
+======================================
+https://docs.docker.com/articles/dockerfile_best-practices/
+
+
 ``docker history``
 ==================
 
@@ -659,6 +670,17 @@ Dockerizing elasticsearch
 
    $ docker run --name es -d -P elasticsearch 
  
+
+Display port info
+=================
+.. code-block:: bash
+
+   $ docker port es
+   9300/tcp -> 0.0.0.0:32770
+   9200/tcp -> 0.0.0.0:32769
+
+*... the ports will most likely vary*
+
 Interacting with elasticsearch via our Notebook
 ===============================================
 .. code-block:: bash
