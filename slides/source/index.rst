@@ -762,6 +762,13 @@ Dockerizing Postgres
 Linking Postgres to our Notebook
 ================================
  
+.. rst-class:: build
+
+* .. code-block:: bash
+
+   $ docker run -d --name pg postgres
+   $ docker run -d -P --name nb --link pg:pg \
+      -v $PWD/notebooks:/notebooks anaconda-notebook
 
 Clean Up Tips
 =============
