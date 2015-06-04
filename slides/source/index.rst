@@ -646,16 +646,6 @@ Different Ways of Dockerizing the Notebook
 * ``FROM continuumio/anaconda`` ...
 
 
-.. note:: ``FROM ubuntu`` write everything
-   * ``FROM python`` ... write the rest ...
-   * ``FROM ipython/ipython`` ... write missing stuff
-   * ``FROM ipython/notebook`` ... just run it
-   * ``FROM jupyter/notebook`` ... run it with command "ipython notebook ..."
-   * ``FROM continuumio/anaconda`` ... add to Dockerfile
-
-
-
-
 Viewing the logs for a container
 ================================
 
