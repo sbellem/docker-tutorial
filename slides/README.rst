@@ -43,7 +43,7 @@ changes are taken into consideration.
    $ docker run --rm -v $PWD/./:/usr/src/slides slidezlab
 
 
-A different approach would be to have have a bash session, and run ``make slides`` in that session:
+A different approach would be to have a bash session, and run ``make slides`` in that session:
 
 .. code-block:: bash
 
