@@ -1,4 +1,4 @@
-docker-tutorial
+Learning Docker
 ===============
 
 A very basic and simple introduction to `Docker`_, initially prepared for
